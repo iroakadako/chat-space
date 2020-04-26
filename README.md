@@ -9,7 +9,7 @@
 |name|string|null: false|index: true|
 ### Association
 - has_many :groups_users
-- has_many :groups through: :messages
+- has_many :groups, through: :messages
 - has_many :messages
 
 ## messagesテーブル
@@ -38,4 +38,4 @@
 |name|integer|null: false|
 ### Association
 - has_many :groups_users
-- has_many :users through: :groups_users
+- has_many :users, through: :groups_users
