@@ -40,18 +40,22 @@
     .groups {
       background-color: #2f3e51;
       height: calc(100vh - 100px);
-    
-      .group {
+      &__group {
         padding: 20px 20px 40px 20px;
-        p.group__group-name {
+        color: white;
+          a {
+            text-decoration: none;
+          }
+        &__group-name {
           font-size: 15px;
           padding-bottom: 5px;
+          color: white;
         }
-        p.group__latest-message {
+        &__latest-message {
           font-size: 11px;
+          color: white;
         }
-
-       }
+      }
     }
   }  
 
