@@ -5,8 +5,7 @@
         = @group.name 
       %ul.main-header__left-box__memeber-list
         Member : 
-        -# %li
-        -#   Member : 
+        
         %li
           - @group.users.each do |user|
             = user.name
